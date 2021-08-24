@@ -1,0 +1,90 @@
+@font-face {
+    font-family: '5Didgit Stencil';
+    src: url('5Didgit-Stencil.woff2') format('woff2'),
+        url('5Didgit-Stencil.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '5Didgit Solid';
+    src: url('5Didgit-Solid.woff2') format('woff2'),
+        url('5Didgit-Solid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angie\'s New House';
+    src: url('AngiesNewHouse-Italic.woff2') format('woff2'),
+        url('AngiesNewHouse-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlayMeGames';
+    src: url('PlayMeGamesReguler.woff2') format('woff2'),
+        url('PlayMeGamesReguler.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'parikesit';
+    src: url('parikesit.woff2') format('woff2'),
+        url('parikesit.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Square Chunks';
+    src: url('SquareChunks.woff2') format('woff2'),
+        url('SquareChunks.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aquire';
+    src: url('AquireBold.woff2') format('woff2'),
+        url('AquireBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Crank';
+    src: url('Crank.woff2') format('woff2'),
+        url('Crank.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Angie\'s New House';
+    src: url('AngiesNewHouse.woff2') format('woff2'),
+        url('AngiesNewHouse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aquire';
+    src: url('AquireRegular.woff2') format('woff2'),
+        url('AquireRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

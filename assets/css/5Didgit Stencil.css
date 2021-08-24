@@ -1,0 +1,7 @@
+@font-face {
+	font-family: '5Didgit Stencil';
+	src: url(../../assets/fonts/5Didgit-Stencil.woff2) format('woff2'),
+	url(../../assets/fonts/5Didgit-Stencil.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Square Chunks';
+	src: url(../../assets/fonts/SquareChunks.woff2) format('woff2'),
+	url(../../assets/fonts/SquareChunks.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
