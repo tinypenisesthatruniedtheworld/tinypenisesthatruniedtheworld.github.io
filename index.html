@@ -1,198 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-us">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>gif_dither_samples</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>tiny.io</title>
+
+    <link rel="stylesheet" href="Template/style.css" />
+
+
 </head>
+<body class="Dark">
+    <!-- Unity Container -->
+    <div id="main-container" class="fill-window">
 
-<body>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Austin_Logger_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Austin Logger</label></div>
-            </div>
+        <div id="unity-container">
+            <canvas id="unity-canvas"></canvas>
         </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Avi_Nadda_NFT_listing.gif"></div>
+
+        <!-- This is a simple progress bar -->
+        <div id="loader" class="loader">
+            <div class="logo-container card">
+                <div class="logo-cont">
+                    <img class="logo" src="Template/logo.png" />
+                </div>
+                <!-- <div class="title-cont">
+                         <h1>tiny.io</h1>
+                         <h2>Powerful Men With Tiny Penises That Ruined The World</h2>
+                         <p>v. </p>
+                     </div> -->
+                <div style="clear:both"></div>
+                <div class="progressbar">
+                    <div id="fill" class="fill" style="width: 0%;"></div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Avi Nadda</label></div>
-            </div>
+
         </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Chad_Smalls_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Chad Smalls</label></div>
-            </div>
-        </div>
+
     </div>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/D_nifcent_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">D Nifcent</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Dick_Masters_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Dick Masters</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Dickley_Schlap_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Dickley Schlap</label></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Lex_Meeks_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Lex Meeks</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Randy_Spunk_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Sod Poo</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Robin_Nutz_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Robin Nutz</label></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Lil_Nutz_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Lil Nutz</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Lil_Pud_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Lil Pud</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/P_Nist_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">P Nist</label></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Pierce_Slpooge_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Pierce Slpooge</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Randy_Spunk_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Randy Spunk</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Reza_Pico_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Reza_Pico</label></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Ricco_Glandz_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Ricco Glandz</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Robin_Nutz_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Robin Nutz</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Shantanub_Nub_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Reza Shantanub</label></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Shit_Person_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Shit Person</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Sod_Poo_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Sod Poo</label></div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col"><img src="assets/img/Zippy_Pud_NFT_listing.gif"></div>
-            </div>
-            <div class="row">
-                <div class="col"><label class="col-form-label">Zippy Pud</label></div>
-            </div>
-        </div>
-    </div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--Integration of web3.min.js to Interact with MetaMask and the DApp-->
+    <!--web3.min.js and web3.min.js.map should be in the same folder as index.html or reference it properly-->
+    <!--  <script language="javascript" type="text/javascript" src="dist/web3.min.js"></script>  -->
+    <!--end-->
+
+    <script src="Template/app.js"></script>
+
 </body>
-
-</html>
+    </html>
